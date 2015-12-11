@@ -1,4 +1,4 @@
-# grunt-webtranslateit
+# grunt-webtranslateit ![Build Status](https://travis-ci.org/anthanh/grunt-webtranslateit.svg?branch=master)
 
 > Automatically retrieve webtranslateit.com files to your project
 
