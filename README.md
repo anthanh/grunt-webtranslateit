@@ -61,4 +61,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+* 2015-12-14   v0.0.2   Removed unused parameter.
 * 2015-12-11   v0.0.1   Initial release.
