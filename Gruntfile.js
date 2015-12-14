@@ -33,7 +33,6 @@ module.exports = function(grunt) {
       example: {
         options: {
           projectToken: 'iRVsJ9kzR6uKaAkI71nAmA',
-          masterLang: 'en',
           langs: ['en', 'es']
         },
         dest: 'tmp/example'
@@ -41,8 +40,7 @@ module.exports = function(grunt) {
       single: {
         options: {
           projectToken: 'iRVsJ9kzR6uKaAkI71nAmA',
-          masterLang: 'en',
-          langs: ['es']
+          langs: 'es'
         },
         dest: 'tmp/single'
       }

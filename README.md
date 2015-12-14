@@ -27,7 +27,6 @@ grunt.initConfig({
   webtranslateit: {
     options: {
       projectToken: 'PUBLIC_KEY',
-      masterLang: 'en',
       langs: ['en', 'es']
     },
     your_target: {
@@ -45,14 +44,8 @@ Default value: `'PUBLIC_KEY'`
 
 Your webtranslateit project id.
 
-#### options.masterLang
-Type: `String`
-Default value: `'en'`
-
-Lang code for the master language.
-
-#### options.masterLang
-Type: `Array`
+#### options.langs
+Type: `Array` | `String`
 Default value: `[]`
 
 Languages to retrieve.

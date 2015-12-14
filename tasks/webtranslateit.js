@@ -21,11 +21,14 @@ module.exports = function(grunt) {
             options = this.options({
                 projectToken: 'PUBLIC_KEY',
                 langs: [],
-                masterLang: 'en',
                 dest: this.data.dest || 'tmp'
             }),
 
             urlBase = 'https://webtranslateit.com/api/projects/' + options.projectToken;
+
+        if (typeof options.langs === 'string') {
+            options.langs = [options.langs];
+        }
 
         if (options.dest.substr(-1) !== '/') {
             options.dest += '/';
