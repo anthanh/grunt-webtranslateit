@@ -48,7 +48,7 @@ module.exports = function(grunt) {
           var localeUrl = urlBase + '/files/' + file.id + '/locales/' + fileLang;
 
           if (options.langs.indexOf(fileLang) === -1) {
-            return cb();
+            return cb2();
           }
 
           request(localeUrl, function(err, fileResponse) {
